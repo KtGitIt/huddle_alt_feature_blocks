@@ -1,0 +1,70 @@
+@use 'colors' as colors;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+$body-cta: "Open Sans", sans-serif;
+$headings: "Poppins", sans-serif;
+
+body {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+a {
+  font-family: $headings;
+}
+
+p {
+  font-family: $body-cta;
+}
+
+h1 {
+  font-size: 2.45rem;
+  padding: 0 5rem 2.4rem 0;
+}
+
+.intro p {
+  font-size: 1.215rem;
+  padding-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  padding-bottom: 1.088rem;
+}
+.features-section p {
+  font-size: 1.125rem;
+  color: colors.$Grayish-Blue;
+}
+
+h3 {
+  font-size: 2.125rem;
+  margin-bottom: 2.813rem;
+}
+.footer-container {
+  color: colors.$White;
+  a {
+    font-family: $body-cta;
+  }
+}
+
+.contact-info-links a {
+  font-size: 1.125rem;
+}
+
+.attribution {
+  p {
+    font-size: 0.75rem;
+  }
+  a {
+    color: colors.$Pink;
+  }
+}
