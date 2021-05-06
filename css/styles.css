@@ -303,7 +303,7 @@ h3 {
     text-align: center;
   }
   .nav-bar img {
-    display: inline-block;
+    display: block;
     margin: 2rem auto;
   }
 
